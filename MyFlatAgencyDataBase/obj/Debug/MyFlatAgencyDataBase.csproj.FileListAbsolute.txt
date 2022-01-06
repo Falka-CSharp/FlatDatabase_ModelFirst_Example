@@ -1,0 +1,15 @@
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\Data\Database1.mdf
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\Data\Database1_log.ldf
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\MyFlatAgencyDataBase.exe.config
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\MyFlatAgencyDataBase.exe
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\MyFlatAgencyDataBase.pdb
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\EntityFramework.dll
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\EntityFramework.xml
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\obj\Debug\MyFlatAgencyDataBase.csprojAssemblyReference.cache
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\obj\Debug\MyFlatAgencyDataBase.csproj.CoreCompileInputs.cache
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\obj\Debug\MyFlatAgencyDataBase.csproj.CopyComplete
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\obj\Debug\MyFlatAgencyDataBase.exe
+C:\Users\vsh15\source\repos\MyFlatAgencyDataBase\MyFlatAgencyDataBase\obj\Debug\MyFlatAgencyDataBase.pdb

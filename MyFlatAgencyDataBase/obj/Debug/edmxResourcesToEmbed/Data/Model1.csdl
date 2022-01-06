@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FlatSet" EntityType="Model1.Flat" />
+    <EntitySet Name="ClientSet" EntityType="Model1.Client" />
+    <AssociationSet Name="ClientFlat" Association="Model1.ClientFlat">
+      <End Role="Client" EntitySet="ClientSet" />
+      <End Role="Flat" EntitySet="FlatSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Flat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FlatName" Type="String" Nullable="false" />
+    <Property Name="FlatSize" Type="Int32" Nullable="false" />
+    <Property Name="RoomsCount" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" Nullable="false" />
+    <NavigationProperty Name="Client" Relationship="Model1.ClientFlat" FromRole="Flat" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" />
+    <NavigationProperty Name="Flats" Relationship="Model1.ClientFlat" FromRole="Client" ToRole="Flat" />
+  </EntityType>
+  <Association Name="ClientFlat">
+    <End Type="Model1.Client" Role="Client" Multiplicity="1" />
+    <End Type="Model1.Flat" Role="Flat" Multiplicity="*" />
+  </Association>
+</Schema>
